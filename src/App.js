@@ -25,7 +25,7 @@ export default  function Menu() {
   return (
     <div className="app">
       <header className="header">
-        <h1>Menu</h1>
+        <h1>Рецепты</h1>
       </header>
       <div className="meals-list">
         {meals.map((meal, index) => (
